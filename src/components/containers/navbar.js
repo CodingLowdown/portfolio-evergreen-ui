@@ -29,6 +29,7 @@ class Navbar extends Component {
             justifyContent="center"
             border="default"
             overflow="hidden"
+            mozOverflow="hidden"
             >
                  <video 
                 position="absloute"

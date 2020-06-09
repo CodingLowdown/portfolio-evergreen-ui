@@ -81,7 +81,7 @@ class Projects extends Component {
              descrip3: "Used python ",
              secondimg: Project5img2,
              repo: "PensionScrape",
-             smalldes: "Utilize Googles custom search API for data extraction from a single source"
+             smalldes: "Utilize Googles search API for data extraction from a single source"
           },{
              id: "Project6",
              Name: "Transfer Markt Scrape",
@@ -136,8 +136,7 @@ class Projects extends Component {
 
         const DivStyle= {
                 float:"left",
-                width:"25%",
-                display:"flex",
+                display:"grid",
                 justifyContent:"center",
                 alignItems:"center",
                 flexDirection:"column",
@@ -151,8 +150,9 @@ class Projects extends Component {
             var href = 'https://github.com/CodingLowdown/' + item.repo
             links.push(<Pane
             style={DivStyle}
-            height={300}
+            height="20%"
             margin={12}
+            width="25%"
             marginLeft={100}
             background="greenTint"
             elevation={0}
@@ -186,7 +186,8 @@ class Projects extends Component {
             var href2 = 'https://github.com/CodingLowdown/' + item2.repo
             links2.push(<Pane
                 style={DivStyle}
-            height={300}
+            height="50%"
+            width="25%"
             margin={12}
             marginLeft={100}
             background="#FAE3CD"
